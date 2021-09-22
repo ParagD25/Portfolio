@@ -10,10 +10,10 @@ function MyApp({ Component, pageProps }) {
           name="viewport"
           content="width=device-width, initial-scale=1,shrink-to-fit=no"
         />
-        <meta name="Bilal Mansuri" content="Frontend developer, React Developer, Javascript Developer" />
-        <meta name="Md Bilal Mansuri" content="Frontend developer, React Developer, Javascript Developer" />
-        <meta name="Bilal" content="portfolio, javascript, developer" />
-        <title>Bilal Mansuri</title>
+        <meta name="Parag Durafe" content="Python developer, Java Developer" />
+        <meta name="Parag Durafe" content="Python developer, Java Developer" />
+        <meta name="Bilal" content="portfolio, python, java, developer" />
+        <title>Parag Durafe</title>
       </Head>
       <Component {...pageProps} />
     </>)
