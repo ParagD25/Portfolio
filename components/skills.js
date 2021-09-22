@@ -11,19 +11,19 @@ function Skills() {
                     <div className={classes.skills_category}>
                         <div className={classes.skills_category}>LANGUAGES</div>
                         <ul>
-                            <li className={classes.skills_category_item}>Javascript&#40;ES6&#41;</li>
-                            <li className={classes.skills_category_item}>CSS/SCSS</li>
-                            <li className={classes.skills_category_item}>HTML</li>
+                            <li className={classes.skills_category_item}>Python</li>
+                            <li className={classes.skills_category_item}>SQL</li>
                             <li className={classes.skills_category_item}>Java</li>
-                            <li className={classes.skills_category_item}>C</li>
+                            <li className={classes.skills_category_item}>HTML</li>
+                            <li className={classes.skills_category_item}>CSS</li>
                         </ul>
                     </div>
                     <div className={classes.skills_category}>
                         <div className={classes.skills_category}>TOOLS</div>
                         <ul>
-                            <li className={classes.skills_category_item}>Git &#38; Github</li>
-                            <li className={classes.skills_category_item}>MongoDB</li>
-                            <li className={classes.skills_category_item}>Firebase</li>
+                            <li className={classes.skills_category_item}>Git</li>
+                            <li className={classes.skills_category_item}>GitHub &#38; GitHub Actions</li>
+                            <li className={classes.skills_category_item}>Heroku</li>
                             <li className={classes.skills_category_item}>Chrome DevTools
                             </li>
                         </ul>
@@ -31,11 +31,11 @@ function Skills() {
                     <div className={classes.skills_category}>
                         <div className={classes.skills_category}>FRAMEWORKS/LIBRARIES</div>
                         <ul>
-                            <li className={classes.skills_category_item}>Next.js</li>
-                            <li className={classes.skills_category_item}>React</li>
-                            <li className={classes.skills_category_item}>Redux</li>
-                            <li className={classes.skills_category_item}>React-Router</li>
-                            <li className={classes.skills_category_item}>Material-UI</li>
+                            <li className={classes.skills_category_item}>Flask</li>
+                            <li className={classes.skills_category_item}>Keras</li>
+                            <li className={classes.skills_category_item}>Tensorflow</li>
+                            <li className={classes.skills_category_item}>Open-CV</li>
+                            <li className={classes.skills_category_item}>Pandas</li>
                             <li className={classes.skills_category_item}>Bootstrap</li>
                         </ul>
                     </div>

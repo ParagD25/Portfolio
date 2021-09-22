@@ -1,7 +1,7 @@
 .box {
   padding: 1rem 2rem 0.5rem;
   border: 1px solid #797575;
-  border-bottom: 4px solid #09f755;
+  border-bottom: 4px solid #00BFFF;
 }
 .box a {
   display: flex;
