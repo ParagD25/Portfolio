@@ -6,39 +6,39 @@ import classes from './other-project.module.css';
 function OtherProjects() {
     const projects = [
         {
-            name: "Tesla Clone",
-            description: "Tesla website clone made using React and Authentication with firebase.",
-            techItems: ["Javasscript", "Firebase", `React Redux`, `Styled Components`],
-            github: "https://github.com/bilal-23/tesla-clone",
-            live: "https://tesla-clone-23.netlify.app/",
+            name: "Project Name",
+            description: "Project Description ...............",
+            techItems: ["Python", "Python", `Python`],
+            github: "https://github.com/ParagD25e",
+            live: "",
         },
         {
-            name: "Weather App",
-            description: "Simple javascript app to query about weather of different cities.",
-            techItems: ['Javascript', "TMDB API", "CSS", "HTML"],
-            github: "https://github.com/bilal-23/Weather-App",
-            live: "https://vetero.netlify.app/"
+            name: "Project Name",
+            description: "Project Description ...............",
+            techItems: ['Python', "Python", "CSS", "HTML"],
+            github: "https://github.com/ParagD25",
+            live: ""
         },
         {
-            name: "Forkify",
-            description: "Simple javascript app to search for different recipes using an API.",
-            techItems: ['Javascript', "API", "CSS", "HTML"],
-            github: "https://github.com/bilal-23/forkify",
-            live: "https://forkify-23.netlify.app/"
+            name: "Project Name",
+            description: "Project Description ...............",
+            techItems: ['Python', "Python", "CSS", "HTML"],
+            github: "https://github.com/ParagD25",
+            live: ""
         },
         {
-            name: "Tic Tac Toe",
-            description: "Tic Tac Toe game made using React.",
-            techItems: ['React', "CSS", "HTML", 'Javascript'],
-            github: "https://github.com/bilal-23/Tic-Tac-Toe",
-            live: "https://tictactoe23.netlify.app/"
+            name: "Project Name",
+            description: "Project Description ...............",
+            techItems: ['Python', "CSS", "HTML", 'Python'],
+            github: "https://github.com/ParagD25",
+            live: ""
         },
         {
-            name: "ToDo App",
-            description: "ToDo App made using React and Context API.",
-            techItems: ["React", "Context API", "CSS", 'Javascript'],
-            github: "https://github.com/bilal-23/toDoApp",
-            live: "https://todolist-23.netlify.app/"
+            name: "Project Name",
+            description: "Project Description ...............",
+            techItems: ["Python", "Python", "CSS", 'Python'],
+            github: "https://github.com/ParagD25",
+            live: ""
         }
     ]
     return (
