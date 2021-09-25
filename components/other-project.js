@@ -6,18 +6,18 @@ import classes from './other-project.module.css';
 function OtherProjects() {
     const projects = [
         {
-            name: "Project Name",
-            description: "Project Description ...............",
-            techItems: ["Python", "Python", `Python`],
-            github: "https://github.com/ParagD25e",
-            live: "",
+            name: "Website Blocker",
+            description: "Detecting Motion using computer's webcam and plotting graph related to the data produced.",
+            techItems: ["Python"],
+            github: "https://github.com/ParagD25/Website-Blocker",
+            // live: "",
         },
         {
-            name: "Project Name",
-            description: "Project Description ...............",
-            techItems: ['Python', "Python", "CSS", "HTML"],
-            github: "https://github.com/ParagD25",
-            live: ""
+            name: "BMI Calculator",
+            description: "Web Application that calculates an individuals BMI using the data given by that individual (like height and weight).",
+            techItems: ['Flask', "flask_sqlalchemy", "mail", "Python"],
+            github: "https://github.com/ParagD25/BMI_Calculator",
+            // live: ""
         },
         {
             name: "Project Name",
