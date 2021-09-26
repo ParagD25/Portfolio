@@ -10,9 +10,9 @@ function MyApp({ Component, pageProps }) {
           name="viewport"
           content="width=device-width, initial-scale=1,shrink-to-fit=no"
         />
-        <meta name="Parag Durafe" content="Python developer, Java Developer" />
-        <meta name="Parag Durafe" content="Python developer, Java Developer" />
-        <meta name="Bilal" content="portfolio, python, java, developer" />
+        <meta name="Parag" content="Python developer, Java Developer" />
+        <meta name="Parag" content="Python developer, Java Developer" />
+        <meta name="Parag" content="portfolio, python, java, developer" />
         <title>Parag Durafe</title>
       </Head>
       <Component {...pageProps} />
