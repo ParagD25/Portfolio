@@ -7,7 +7,7 @@ function Projects() {
             name: "Motion Detection",
             tech: "Open-CV, Pandas, Bokeh",
             github: "https://github.com/ParagD25/Motion_Detection",
-            live: ""
+            // live: ""
         },
         {
             name: "Stock Analysis",
