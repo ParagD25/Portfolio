@@ -20,18 +20,18 @@ function OtherProjects() {
             // live: ""
         },
         {
-            name: "Project Name",
-            description: "Project Description ...............",
-            techItems: ['Python', "Python", "CSS", "HTML"],
-            github: "https://github.com/ParagD25",
-            live: ""
+            name: "Currency Converter",
+            description: "Creating Currency Convertion Mobile Application 📱.",
+            techItems: ['Python', "Kivy"],
+            github: "https://github.com/ParagD25/Currency_Converter",
+            // live: ""
         },
         {
-            name: "Project Name",
-            description: "Project Description ...............",
-            techItems: ['Python', "CSS", "HTML", 'Python'],
-            github: "https://github.com/ParagD25",
-            live: ""
+            name: "Mountain and Volcano Mapping",
+            description: "Creating map using Folium library and pinning the locations of major volcanoes and mountains respectively.",
+            techItems: ['Folium', "Pandas",'Python'],
+            github: "https://github.com/ParagD25/mountain_volcano_mapping",
+            // live: ""
         },
         {
             name: "Project Name",
