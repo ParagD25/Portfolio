@@ -6,6 +6,13 @@ import classes from './other-project.module.css';
 function OtherProjects() {
     const projects = [
         {
+            name: "Virtual Pen",
+            description: "An application where one can write on screen by just using gestures.",
+            techItems: ["Python", "OpenCV"],
+            github: "https://github.com/ParagD25/Virtual_Pen",
+            // live: ""
+        },
+        {
             name: "Website Blocker",
             description: "Detecting Motion using computer's webcam and plotting graph related to the data produced.",
             techItems: ["Python"],
@@ -32,14 +39,8 @@ function OtherProjects() {
             techItems: ['Folium', "Pandas",'Python'],
             github: "https://github.com/ParagD25/mountain_volcano_mapping",
             // live: ""
-        },
-        {
-            name: "Project Name",
-            description: "Project Description ...............",
-            techItems: ["Python", "Python", "CSS", 'Python'],
-            github: "https://github.com/ParagD25",
-            live: ""
         }
+
     ]
     return (
         <Section>
