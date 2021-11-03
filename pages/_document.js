@@ -5,7 +5,7 @@ class MyDocument extends Document {
         return (
             <Html lang="en" >
                 <Head>
-                    <link rel="shortcut icon" href="" type="image/svg+xml"></link>
+                    <link rel="icon" type="image/png" sizes="32x32" href="../public/images/arrow.png"></link>
                 </Head>
                 <body>
                     <Main />
