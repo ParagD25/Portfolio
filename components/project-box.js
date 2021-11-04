@@ -12,9 +12,9 @@ function ProjectBox(props) {
                 <a href={props.github} target="_blank" rel="noopener noreferrer">
                     <img src="https://adeolaadeoti.netlify.app/github.a1bad59c.svg" alt="Github" />
                 </a>
-                <a href={props.live} target="_blank" rel="noopener noreferrer">
+                {props.live && <a href={props.live} target="_blank" rel="noopener noreferrer">
                     <img src="https://adeolaadeoti.netlify.app/link.66854e8a.svg" alt="Live" />
-                </a>
+                </a>}
             </div>
             <div className={classes.project_box_content} onClick={clickHandler}>
                 <h3>{props.name}</h3>
