@@ -52,11 +52,25 @@ $ npm run dev
 ```
 
 Once your server has started, go to this url `http://localhost:3000/` and you will see the website running on a Development Server:
-
+<p align="center">
+  <img src="https://github.com/ParagD25/Portfolio/blob/master/Screenshots/1.png" alt="Home Page" width="100%">
+</p>
 
 ---
 
-## Screenshots
+## Screenshots 📸
+
+<p align="center">
+  <img src="https://github.com/ParagD25/Portfolio/blob/master/Screenshots/2.png" alt="Home Page" width="100%">
+</p>
+
+<p align="center">
+  <img src="https://github.com/ParagD25/Portfolio/blob/master/Screenshots/3.png" alt="Home Page" width="100%">
+</p>
+
+<p align="center">
+  <img src="https://github.com/ParagD25/Portfolio/blob/master/Screenshots/4.png" alt="Home Page" width="100%">
+</p>
 
 ## Technologies used 🛠️
 
