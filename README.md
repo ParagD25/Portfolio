@@ -1,6 +1,6 @@
 # Portfolio
 
-## A minimal portfolio template for Developers! Built with React + Next.js ⚡️ 
+### A minimal portfolio template for Developers! Built with React + Next.js ⚡️ 
 
 ## Features✨
 - Modern UI Design + Reveal Animations
@@ -14,7 +14,7 @@
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
-### Prerequisites 📋
+## Prerequisites 📋
 
 You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [NPM](http://npmjs.com)) installed on your computer.
 
