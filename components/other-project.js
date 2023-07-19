@@ -45,7 +45,7 @@ function OtherProjects() {
     return (
         <Section>
             <div className="section_title">
-                Other Projects
+            <img src='./oproject.png' class='icon-image'></img>Other Projects
             </div>
             <div className={`${classes.projects_wrapper} section_content`}>
                 {projects.map(project => <ProjectBox key={project.github} title={project.name} description={project.description} techItems={project.techItems} github={project.github} live={project.live} />)}
