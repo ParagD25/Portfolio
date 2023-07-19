@@ -5,7 +5,8 @@
 .background_title {
   flex-shrink: 0;
   width: 20rem;
-  margin-right: 10rem;
+  display: flex;
+  align-items: center;
   color: var(--secondary-color);
   text-transform: uppercase;
   text-align: right;
@@ -14,8 +15,8 @@
 }
 .background_content {
   font-weight: 300;
-  width: 100%;
-  max-width: 60rem;
+  width: 70rem;
+
 }
 .background_content p {
   margin-bottom: 2.5rem;
@@ -57,13 +58,10 @@
 
 @media only screen and (max-width: 768px) {
   .background_title {
-    text-align: left;
     width: auto;
   }
   .background_content {
     width: 100%;
     max-width: 80rem;
-    padding-top: 4rem;
-    padding-left: 6rem;
   }
 }

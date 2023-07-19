@@ -1,4 +1,4 @@
-import classes from './project-box.module.css';
+import classNamees from './project-box.module.css';
 
 function ProjectBox(props) {
 
@@ -7,8 +7,8 @@ function ProjectBox(props) {
     }
 
     return (
-        <div className={classes.project_box} >
-            <div className={classes.project_box_link}>
+        <div className={classNamees.project_box} >
+            <div className={classNamees.project_box_link}>
                 <a href={props.github} target="_blank" rel="noopener noreferrer">
                     <img src="/github.svg" alt="Live" />
                 </a>
@@ -16,7 +16,7 @@ function ProjectBox(props) {
                     <img src="/link.svg" alt="Live" />
                 </a>}
             </div>
-            <div className={classes.project_box_content} onClick={clickHandler}>
+            <div className={classNamees.project_box_content} onClick={clickHandler}>
                 <h3>{props.name}</h3>
                 <h5>{props.tech}</h5>
             </div>

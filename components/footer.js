@@ -1,12 +1,12 @@
-import classes from './footer.module.css';
+import classNamees from './footer.module.css';
 
 function Footer() {
     return (
-        <footer className={classes.footer}>
-            <div className={classes.developed}>
-                Developed By <a href="https://github.com/ParagD25/Portfolio" target="_blank" rel="noopener noreferrer" className={classes.link}>Parag Durafe</a>
+        <footer className={classNamees.footer}>
+            <div className={classNamees.developed}>
+                Developed By <a href="https://github.com/ParagD25/Portfolio" target="_blank" rel="noopener noreferrer" className={classNamees.link}>Parag Durafe</a>
             </div>
-            <div className={classes.design}>
+            <div className={classNamees.design}>
             </div>
         </footer>
     )

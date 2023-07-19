@@ -1,13 +1,13 @@
-import classes from './background.module.css';
+import classNamees from './background.module.css';
 import Section from './section';
 function Background() {
     return (
-        <Section className={classes.background}>
-            <div className={classes.background_title}>
-            <img src='./aboutme.png' class='icon-image'></img>ABOUT ME
+        <Section className={classNamees.background}>
+            <div className={classNamees.background_title}>
+            <img src='./aboutme.png' className='icon-image'></img>ABOUT ME
             </div>
-            <div className={classes.background_content}>
-            <p>Recent Electronics and Communications Engineering graduate with a Bachelor's degree from <a href="https://www.medicaps.ac.in/" className={classes.background_link} target="_blank" rel="noreferrer">Medi-Caps University.</a>, skilled in programming and passionate about technology. Proficient in Python, SQL, JAVA, HTML, CSS, and frameworks such as Django, Flask, and FastAPI. </p>
+            <div className={classNamees.background_content}>
+            <p>Recent Electronics and Communications Engineering graduate with a Bachelors degree from <a href="https://www.medicaps.ac.in/" className={classNamees.background_link} target="_blank" rel="noreferrer">Medi-Caps University.</a>, skilled in programming and passionate about technology. Proficient in Python, SQL, JAVA, HTML, CSS, and frameworks such as Django, Flask, and FastAPI. </p>
 
             <p>As a back-end developer intern at ZuAi, tested authentication APIs, developed image uploading and retrieval APIs, and collaborated effectively with cross-functional teams. </p>
 

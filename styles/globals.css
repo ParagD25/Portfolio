@@ -55,18 +55,21 @@ a:link {
 
 .section_title {
   flex-shrink: 0;
-  width: 20rem;
-  margin-right: 10rem;
+  /* width: 20rem; */
+  display: flex;
+  align-items: center;
   color: var(--secondary-color);
   text-transform: uppercase;
   text-align: right;
   font-weight: 700;
   letter-spacing: 2px;
+  gap: 1rem;
 }
 .section_content {
   font-weight: 300;
   width: 100%;
-  max-width: 60rem;
+  max-width: 70rem;
+  
 }
 
 @media only screen and (min-width: 1550px) {

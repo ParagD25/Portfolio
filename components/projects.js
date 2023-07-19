@@ -1,5 +1,5 @@
 import ProjectBox from './project-box';
-import classes from './projetcs.module.css';
+import classNamees from './projetcs.module.css';
 import Section from './section';
 function Projects() {
     const projects = [
@@ -31,9 +31,9 @@ function Projects() {
     return (
         <Section>
             <div className="section_title">
-                <img src='./fproject.png' class='icon-image'></img>Featured Projects 
+                <img src='./fproject.png' className='icon-image'></img>Featured Projects 
             </div>
-            <div className={`${classes.projects_wrapper} section_content`}>
+            <div className={`${classNamees.projects_wrapper} section_content`}>
                 {projects?.map(project => <ProjectBox key={project.github} name={project.name} tech={project.tech} github={project.github} live={project.live} />)}
             </div>
         </Section>

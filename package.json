@@ -11,13 +11,9 @@
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
-    "next": "11.1.2",
-    "react": "17.0.2",
-    "react-animated-cursor": "^2.2.0",
-    "react-dom": "17.0.2"
-  },
-  "devDependencies": {
-    "eslint": "7.32.0",
-    "eslint-config-next": "11.1.2"
+    "next": "13.4.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-animated-cursor": "^2.2.0"
   }
 }

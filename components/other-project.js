@@ -1,7 +1,7 @@
 import Button from './UI/button';
 import ProjectBox from './other-project-box';
 import Section from './section';
-import classes from './other-project.module.css';
+import classNamees from './other-project.module.css';
 
 function OtherProjects() {
     const projects = [
@@ -45,11 +45,11 @@ function OtherProjects() {
     return (
         <Section>
             <div className="section_title">
-            <img src='./oproject.png' class='icon-image'></img>Other Projects
+            <img src='./oproject.png' className='icon-image'></img>Other Projects
             </div>
-            <div className={`${classes.projects_wrapper} section_content`}>
+            <div className={`${classNamees.projects_wrapper} section_content`}>
                 {projects.map(project => <ProjectBox key={project.github} title={project.name} description={project.description} techItems={project.techItems} github={project.github} live={project.live} />)}
-                < div className={classes.more} >
+                < div className={classNamees.more} >
                     <a href="https://github.com/ParagD25?tab=repositories" target="_blank" rel="noopener noreferrer"><Button> More Projects</Button></a>
                 </div>
             </div>

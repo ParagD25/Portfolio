@@ -1,8 +1,8 @@
-import classes from './section.module.css';
+import classNamees from './section.module.css';
 
 function Section(props) {
     return (
-        <section className={`${classes.section} ${props.className}`} id={props.id}>
+        <section className={`${classNamees.section} ${props.className}`} id={props.id}>
             {props.children}
         </section>
     )
