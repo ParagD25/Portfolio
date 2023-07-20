@@ -15,9 +15,9 @@ function MyApp({ Component, pageProps }) {
           name="viewport"
           content="width=device-width, initial-scale=1,shrink-to-fit=no"
         />
-        <meta name="Parag" content="Python developer, Java Developer" />
-        <meta name="Parag" content="Python developer, Java Developer" />
-        <meta name="Parag" content="portfolio, python, java, developer" />
+        <meta name="Parag" content="Python developer, Backend Developer" />
+        <meta name="Parag" content="Python developer, Backend Developer" />
+        <meta name="Parag" content="portfolio, python, backend, java, developer" />
         <title>Parag Durafe</title>
       </Head>
       <AnimatedCursor

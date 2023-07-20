@@ -23,9 +23,9 @@
   top: 5rem;
   width: 50%;
   height: 85%;
-  background: url("/images/back.gif") no-repeat;
+  background: url("/images/new.png") no-repeat;
   background-size: cover;
-  background-position: right;
+  background-position: center;
 }
 .header > * {
   font-weight: 400;

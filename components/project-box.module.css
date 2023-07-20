@@ -64,9 +64,9 @@
 }
 .project_box h5 {
   font-size: 1.2rem;
-  text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 2.5px;
 }
 .project_box:hover .project_box_content {
   color: white;
 }
+  

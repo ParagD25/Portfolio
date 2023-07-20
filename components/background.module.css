@@ -15,9 +15,17 @@
 }
 .background_content {
   font-weight: 300;
-  width: 70rem;
+  max-width: 70rem;
 
 }
+
+.experience{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items:center ;
+}
+
 .background_content p {
   margin-bottom: 2.5rem;
 }

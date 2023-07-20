@@ -6,40 +6,26 @@ import classNamees from './other-project.module.css';
 function OtherProjects() {
     const projects = [
         {
-            name: "Virtual Pen",
-            description: "An application where one can write on screen by just using gestures.",
-            techItems: ["Python", "OpenCV"],
-            github: "https://github.com/ParagD25/Virtual_Pen",
-            // live: ""
+            name: "PDF Scanner",
+            description: "An Application where one can scan an image and save it in '.jpg' format and can further convert it into '.pdf' format.",
+            techItems: ["Python", "OpenCV","NumPy","img2pdf"],
+            github: "https://github.com/ParagD25/Scanner",
+            live: "https://www.youtube.com/watch?v=yfZKE19jc3w"
         },
         {
-            name: "Website Blocker",
+            name: "Motion Detection",
             description: "Detecting Motion using computer's webcam and plotting graph related to the data produced.",
-            techItems: ["Python"],
-            github: "https://github.com/ParagD25/Website-Blocker",
+            techItems: ["Python","OpenCV","Bokeh","Pandas"],
+            github: "https://github.com/ParagD25/Motion_Detection",
             // live: "",
         },
         {
-            name: "BMI Calculator",
-            description: "Web Application that calculates an individuals BMI using the data given by that individual (like height and weight).",
-            techItems: ['Flask', "flask_sqlalchemy", "mail", "Python"],
-            github: "https://github.com/ParagD25/BMI_Calculator",
+            name: "Web Scraping",
+            description: "Scrapping property data from a MagicBricks Website.",
+            techItems: ['Python', "bs4", "Pandas", "Requests"],
+            github: "https://github.com/ParagD25/Web_scraping_magicbricks",
             // live: ""
         },
-        {
-            name: "Currency Converter",
-            description: "Creating Currency Convertion Mobile Application 📱.",
-            techItems: ['Python', "Kivy"],
-            github: "https://github.com/ParagD25/Currency_Converter",
-            // live: ""
-        },
-        {
-            name: "Mountain and Volcano Mapping",
-            description: "Creating map using Folium library and pinning the locations of major volcanoes and mountains respectively.",
-            techItems: ['Folium', "Pandas",'Python'],
-            github: "https://github.com/ParagD25/mountain_volcano_mapping",
-            // live: ""
-        }
 
     ]
     return (
