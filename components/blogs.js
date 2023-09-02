@@ -23,7 +23,7 @@ function Blogs() {
             <div className="section_title">
                 <img src='./blog.png' className='icon-image'></img>Blogs
             </div>
-            <div className={`${classNamees.projects_wrapper} section_content`}>
+            <div className={`${classNamees.projects_wrapper} ${classNamees.blog_wrapper} section_content`}>
                 {projects?.map(project => <BlogBox key={project.github} name={project.name} tech={project.tech} live={project.live} />)}
                 <div className={classNamees.more}>
                 <a href="https://paragdurafe.hashnode.dev/" target="_blank" rel="noopener noreferrer"><Button>More Blogs</Button></a>
